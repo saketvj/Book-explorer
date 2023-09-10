@@ -1,0 +1,31 @@
+.result_page_container {
+  margin: 2rem 2rem;
+}
+.top_bar {
+  display: flex;
+  /* border: 1px solid blue; */
+  align-items: center;
+}
+.result_page_search_input_on_top {
+  /* border: 1px solid red; */
+  margin: 0 0 0 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.result_page_back_on_top {
+  /* border: 1px solid blue; */
+  margin: 0 0 -5px 0;
+  width: 3rem;
+  cursor: pointer;
+}
+.result_page_list_of_small_results {
+  /* display: flex; */
+  /* border: deeppink 3px solid; */
+}
+.all_small_result_container_div {
+    margin: 2rem 5.5rem 0 5.5rem;
+    /* border: turquoise 3px double; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
